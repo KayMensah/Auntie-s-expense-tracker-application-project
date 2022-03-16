@@ -1,17 +1,17 @@
 // import logo from './logo.svg';
-import "./App.css";
-import HeaderComponent from "./components/HeaderComponent";
-import ExpenseNote from "./components/ExpenseNote";
-import { ExpenseList } from "./components/ExpenseList";
+
+import AddTransction from "./components/AddTransction";
+import Header from "./components/Header";
+import History from "./components/History";
 
 function App() {
-  return (
-    <div>
-      <HeaderComponent />
-      <ExpenseNote />
-      <ExpenseList />
-    </div>
-  );
+    return (
+        <div className="container">
+            <Header />
+            <History />
+            <AddTransction />
+        </div>
+    );
 }
 
 export default App;
