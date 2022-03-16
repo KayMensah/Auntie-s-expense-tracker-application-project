@@ -9,6 +9,7 @@ const intial = [
 ];
 
 const reducer = (state = intial, action) => {
+  console.log(action);
   switch (action.type) {
     case "addExpense":
       return [...state, action.payload];

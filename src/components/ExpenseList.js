@@ -41,7 +41,7 @@ export const ExpenseList = () => {
               {Expenses.map((expense) => {
                 return (
                   <Expense
-                    key={expense}
+                    key={expense.id}
                     expense={expense}
                     show={setshow}
                     modal={setmodal}
